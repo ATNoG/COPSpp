@@ -4,7 +4,7 @@
 ## If you don't want it to overwrite it,
 ## 	Please disable it in the Anjuta project configuration
 
-INCLUDES =
+INCLUDES = -I../include
 
 AM_CFLAGS =\
 	 -Wall -fPIC\
@@ -14,7 +14,7 @@ AM_CFLAGS =\
 AM_CXXFLAGS =\
 	 -Wall -fPIC\
 	 -O2
-	 -gstabs -Wimplicit -Wunused -fno-inline -I../include -g 
+	 -gstabs -Wimplicit -Wunused -fno-inline -g 
 
 lib_LIBRARIES = libCopspp.a
 
