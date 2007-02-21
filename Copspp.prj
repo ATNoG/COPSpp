@@ -1,0 +1,186 @@
+# Anjuta Version 1.2.0 
+Compatibility Level: 1 
+
+<PROJECT_DESCRIPTION_START>
+RFC Compliant COPS API<PROJECT_DESCRIPTION_END>
+<CONFIG_PROGS_START>
+<CONFIG_PROGS_END>
+<CONFIG_LIBS_START>
+AC_LANG(C++)
+AC_CHECK_LIB(pthreadsmm,main,,AC_MSG_ERROR("cannot find pthreadsmm library"))
+<CONFIG_LIBS_END>
+<CONFIG_HEADERS_START>
+AC_CHECK_HEADERS([netdb.h netinet/in.h sys/socket.h unistd.h],,AC_MSG_ERROR("header missing please check missing header location"))<CONFIG_HEADERS_END>
+<CONFIG_CHARACTERISTICS_START>
+<CONFIG_CHARACTERISTICS_END>
+<CONFIG_LIB_FUNCS_START>
+AC_FUNC_ERROR_AT_LINE
+AC_HEADER_STDC
+AC_TYPE_SIGNAL
+AC_CHECK_FUNCS([gethostbyaddr memset socket strerror])
+<CONFIG_LIB_FUNCS_END>
+<CONFIG_ADDITIONAL_START>
+<CONFIG_ADDITIONAL_END>
+<CONFIG_FILES_START>
+<CONFIG_FILES_END>
+<MAKEFILE_AM_START>
+<MAKEFILE_AM_END>
+
+props.file.type=project
+
+anjuta.version=1.2.0
+anjuta.compatibility.level=1
+
+project.name=Copspp
+project.type=GENERIC
+project.target.type=STATIC_LIB
+project.version=1.0
+project.author=Diogo Gomes
+project.source.target=libCopspp
+project.has.gettext=0
+project.gui.command=
+project.programming.language=C_C++
+project.excluded.modules=intl
+
+project.config.extra.modules.before=
+project.config.extra.modules.after=tests
+project.config.blocked=0
+project.config.disable.overwriting=0 0 0 0 0 0 0 0 0 
+
+project.menu.entry=Copspp Version 0.1
+project.menu.group=Applications
+project.menu.comment=Copspp Version 0.1
+project.menu.icon=
+project.menu.need.terminal=0
+
+project.configure.options=
+anjuta.program.arguments=
+preferences.build.option.jobs=0
+preferences.build.option.silent=0
+preferences.build.option.autosave=0
+preferences.anjuta.make.options=-k
+preferences.make=make
+preferences.build.option.keep.going=1
+preferences.build.option.warn.undef=0
+preferences.autoformat.custom.style= -i8 -sc -bli0 -bl0 -cbi0 -ss
+preferences.indent.opening=0
+preferences.autoformat.disable=0
+preferences.indent.automatic=1
+preferences.use.tabs=1
+preferences.indent.size=4
+preferences.tabsize=4
+preferences.indent.closing=0
+
+module.include.name=include
+module.include.type=
+module.include.files=\
+	SocketServer.h\
+	COPSAcctTimer.h\
+	COPSmessage.h\
+	COPSClientSI.h\
+	COPSCommonHeader.h\
+	COPSContext.h\
+	COPSDecision.h\
+	COPSError.h\
+	COPSHandle.h\
+	COPSINInt.h\
+	COPSKATimer.h\
+	COPSOUTInt.h\
+	COPSLastPDPAddr.h\
+	COPSObj.h\
+	COPSPDPRedirAddr.h\
+	COPSPEPID.h\
+	COPSReportType.h\
+	COPSReason.h\
+	PDP.h\
+	PDPchild.h\
+	PEP.h\
+	Socket.h\
+	SocketClient.h\
+	color.h
+
+module.source.name=src
+module.source.type=
+module.source.files=\
+	main.cc\
+	Socket.cc\
+	Socket.h\
+	SocketServer.cc\
+	SocketServer.h\
+	SocketClient.cc\
+	SocketClient.h\
+	COPSCommonHeader.cc\
+	COPSCommonHeader.h\
+	PDP.cc\
+	PDP.h\
+	PEP.cc\
+	PEP.h\
+	COPSPEPID.cc\
+	COPSPEPID.h\
+	COPSObj.cc\
+	COPSObj.h\
+	COPSmessage.cc\
+	COPSmessage.h\
+	COPSKATimer.cc\
+	COPSKATimer.h\
+	COPSError.cc\
+	COPSError.h\
+	PDPchild.cc\
+	PDPchild.h\
+	COPSHandle.cc\
+	COPSHandle.h\
+	COPSContext.cc\
+	COPSContext.h\
+	COPSDecision.cc\
+	COPSDecision.h\
+	COPSReportType.cc\
+	COPSReportType.h\
+	COPSReason.cc\
+	COPSReason.h\
+	COPSClientSI.cc\
+	COPSClientSI.h\
+	COPSINInt.cc\
+	COPSINInt.h\
+	COPSOUTInt.cc\
+	COPSOUTInt.h\
+	COPSAcctTimer.cc\
+	COPSAcctTimer.h\
+	COPSPDPRedirAddr.cc\
+	COPSPDPRedirAddr.h\
+	COPSLastPDPAddr.h\
+	COPSLastPDPAddr.cc\
+	color.h
+
+module.pixmap.name=pixmaps
+module.pixmap.type=
+module.pixmap.files=
+
+module.data.name=data
+module.data.type=
+module.data.files=
+
+module.help.name=help
+module.help.type=
+module.help.files=
+
+module.doc.name=doc
+module.doc.type=
+module.doc.files=
+
+module.po.files=
+
+compiler.options.supports=
+compiler.options.include.paths=
+compiler.options.library.paths=
+compiler.options.libraries=
+compiler.options.libraries.selected=
+compiler.options.defines=
+compiler.options.defines.selected=
+compiler.options.warning.buttons=0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+compiler.options.optimize.buttons=0 1 0 0 
+compiler.options.other.buttons=1 0 
+compiler.options.other.c.flags=
+compiler.options.other.l.flags=
+compiler.options.other.l.libs=
+
+project.src.paths=
