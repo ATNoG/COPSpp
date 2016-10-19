@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>COPS++</title>
+<link>file://localhost/Users/dgomes/Sites/COPSpp/COPSpp/News/News.html</link>
+<description>Common Open Policy Service (COPS) C++ implementation</description>
+<generator>iWeb 1.1.2</generator>
+<image>
+<url>file://localhost/Users/dgomes/Sites/COPSpp/COPSpp/News/News_files/network.png</url>
+<title>COPS++</title>
+<link>file://localhost/Users/dgomes/Sites/COPSpp/COPSpp/News/News.html</link>
+</image>
+<item>
+<title>Doxygen Documentation</title>
+<link>file://localhost/Users/dgomes/Sites/COPSpp/COPSpp/News/11ED7E32-61EA-4698-8799-A602DA498B45.html</link>
+<guid>file://localhost/Users/dgomes/Sites/COPSpp/COPSpp/News/11ED7E32-61EA-4698-8799-A602DA498B45.html</guid>
+<pubDate>Wed, 16 Mar 2005 19:32:04 +0000</pubDate>
+<description>&lt;a href="file://localhost/Users/dgomes/Sites/COPSpp/COPSpp/News/11ED7E32-61EA-4698-8799-A602DA498B45_files/copspp_doxygen2.png"&gt;&lt;img src="file://localhost/Users/dgomes/Sites/COPSpp/COPSpp/News/Images/copspp_doxygen2.png" style="float:left; padding-right:10px; padding-bottom:10px; width:130px; height:130px;"/&gt;&lt;/a&gt;You can now browse the documentation of COPS++ online.&#13;&#13;Go to &lt;a href="http://hng.av.it.pt/~copspp/manual/index.html"&gt;COPSpp Documentation&lt;/a&gt;&#13; </description>
+<enclosure url="file://localhost/Users/dgomes/Sites/COPSpp/COPSpp/News/11ED7E32-61EA-4698-8799-A602DA498B45_files/copspp_doxygen2.png" length="82874" type="image/png"/>
+</item>
+<item>
+<title>Release 1.13</title>
+<link>file://localhost/Users/dgomes/Sites/COPSpp/COPSpp/News/C588D9FA-7976-401D-BCF2-91812971C4AF.html</link>
+<guid>file://localhost/Users/dgomes/Sites/COPSpp/COPSpp/News/C588D9FA-7976-401D-BCF2-91812971C4AF.html</guid>
+<pubDate>Thu, 2 Dec 2004 18:38:01 +0000</pubDate>
+<description>&lt;a href="file://localhost/Users/dgomes/Sites/COPSpp/COPSpp/News/C588D9FA-7976-401D-BCF2-91812971C4AF_files/copspp_doxygen1_1.png"&gt;&lt;img src="file://localhost/Users/dgomes/Sites/COPSpp/COPSpp/News/Images/copspp_doxygen1.png" style="float:left; padding-right:10px; padding-bottom:10px; width:130px; height:130px;"/&gt;&lt;/a&gt;Final version includes several bug fixes detected during project &lt;a href="http://www.ist-daidalos.org"&gt;IST-Daidalos&lt;/a&gt;.&#13;</description>
+<enclosure url="file://localhost/Users/dgomes/Sites/COPSpp/COPSpp/News/C588D9FA-7976-401D-BCF2-91812971C4AF_files/copspp_doxygen1_1.png" length="71652" type="image/png"/>
+</item>
+</channel>
+</rss>
